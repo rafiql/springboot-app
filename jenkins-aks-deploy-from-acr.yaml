@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: bhalowscr.azurecr.io/bhalowscr:latest
+        image: bhalowacr.azurecr.io/bhalowacr:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
