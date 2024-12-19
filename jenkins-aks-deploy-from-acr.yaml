@@ -26,7 +26,7 @@ metadata:
   labels:
     app: springboot-app
     k8s-app: springboot-app
-  name: springboot-app
+  name: springboot-service
 spec:
   ports:
   - name: http
