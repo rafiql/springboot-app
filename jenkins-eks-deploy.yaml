@@ -18,7 +18,7 @@ spec:
         image: 369801643157.dkr.ecr.us-west-1.amazonaws.com/esquire-ecr:v1
         imagePullPolicy: Always
         ports:
-        - containerPort: 80
+        - containerPort: 8085
 
 # Service type loadbalancer
 ---
@@ -32,9 +32,9 @@ metadata:
 spec:
   ports:
   - name: http
-    port: 80
+    port: 8085
     protocol: TCP
-    targetPort: 80
+    targetPort: 8085
   type: LoadBalancer
   selector:
     app: hello-app
