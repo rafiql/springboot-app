@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-container
-        image: 369801643157.dkr.ecr.us-west-1.amazonaws.com/esquire-ecr:latest
+        image: 369801643157.dkr.ecr.us-west-1.amazonaws.com/esquire-ecr:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
